@@ -1,0 +1,8 @@
+subprocess.run
+shutil
+os
+pytest>=7.0.0
+typing-extensions>=4.0.0
+pytest-mock>=3.10.0
+colorama>=0.4.6
+setuptools>=65.5.1
