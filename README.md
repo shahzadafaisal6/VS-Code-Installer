@@ -1,10 +1,13 @@
-# VS Code Installer
+# 🛠️ VS Code Installer
 
-A comprehensive Visual Studio Code installer and uninstaller for Linux systems with a beautiful command-line interface.
+A comprehensive Visual Studio Code installer and uninstaller for Linux systems (especially Parrot OS and Debian-based distributions) with a beautiful command-line interface.
 
-## Features
+## 📦 Features
 - 🚀 Automated VS Code installation and uninstallation
+- ✅ Detects if VS Code is already installed
 - 🔍 System compatibility checks
+- 🔐 Adds Microsoft's secure APT repository and key
+- 📥 Installs required dependencies
 - 🎨 Beautiful colored interface
 - 📝 Detailed logging
 - 🔒 Proper error handling
@@ -18,10 +21,11 @@ A comprehensive Visual Studio Code installer and uninstaller for Linux systems w
   - +923013116258
 - Repository: https://github.com/shahzadafaisal6/VS-Code-Installer
 
-## Requirements
+## 🧑‍💻 Prerequisites
 - Python 3.6 or higher
-- Linux-based operating system
+- Linux-based operating system (optimized for Parrot OS and Debian-based systems)
 - Root/sudo privileges
+- Internet connection
 
 ## Installation
 
@@ -48,6 +52,7 @@ The script will:
 2. Detect if VS Code is already installed
 3. Provide options to install or uninstall
 4. Handle the process automatically with proper error handling
+5. Guide you on how to open VS Code after installation
 
 ## Logging
 
