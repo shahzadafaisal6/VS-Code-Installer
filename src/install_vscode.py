@@ -11,8 +11,10 @@ import logging
 from datetime import datetime
 
 # Set up logging
+script_dir = os.path.dirname(os.path.abspath(__file__))
+log_path = os.path.join(script_dir, f'vscode_installer_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log')
 logging.basicConfig(
-    filename=f'vscode_installer_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log',
+    filename=log_path,
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )

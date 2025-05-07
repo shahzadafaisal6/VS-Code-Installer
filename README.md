@@ -2,6 +2,11 @@
 
 A comprehensive Visual Studio Code installer and uninstaller for Linux systems (especially Parrot OS and Debian-based distributions) with a beautiful command-line interface.
 
+## 📹 Demo Video
+[![VS Code Installer Demo](https://img.youtube.com/vi/9nmAZ8YVrrc/0.jpg)](https://www.youtube.com/embed/9nmAZ8YVrrc?autoplay=1)
+
+Click the image above to watch a demonstration of the VS Code Installer in action!
+
 ## 📦 Features
 - 🚀 Automated VS Code installation and uninstallation
 - ✅ Detects if VS Code is already installed
